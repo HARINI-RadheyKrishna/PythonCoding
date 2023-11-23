@@ -1,3 +1,4 @@
+import re
 
 def grade_assignment(file_to_be_read) -> str:   
     with open(file_to_be_read, "r") as file1:
